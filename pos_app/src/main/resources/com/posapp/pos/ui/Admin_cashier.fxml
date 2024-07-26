@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import com.jfoenix.controls.JFXButton?>-->
+<!--<?import com.jfoenix.controls.JFXRadioButton?>-->
+<!--<?import com.jfoenix.controls.JFXTextField?>-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1493.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.posapp.pos.controller.AdminManageCashierController">
+   <children>
+      <TableView fx:id="tb_cashier" layoutX="322.0" layoutY="76.0" prefHeight="634.0" prefWidth="1174.0">
+         <columns>
+            <TableColumn fx:id="col_id" prefWidth="160.0" text="ID" />
+            <TableColumn fx:id="col_name" prefWidth="221.59994506835938" text="Name" />
+            <TableColumn fx:id="col_age" prefWidth="64.79998779296875" text="Age" />
+            <TableColumn fx:id="col_gender" prefWidth="78.39996337890625" text="Gender" />
+            <TableColumn fx:id="col_address" prefWidth="148.79998779296875" text="Address" />
+            <TableColumn fx:id="col_phone" prefWidth="136.7999267578125" text="Phone" />
+            <TableColumn fx:id="col_email" prefWidth="140.800048828125" text="Email" />
+            <TableColumn fx:id="col_password" prefWidth="121.60009765625" text="Password" />
+            <TableColumn fx:id="col_dob" prefWidth="128.0001220703125" text="Date of Birth" />
+            <TableColumn fx:id="col_date_created" prefWidth="132.7999267578125" text="Date Created" />
+         </columns></TableView>
+      <Label layoutX="31.0" layoutY="218.0" text="ID" />
+      <Label layoutX="31.0" layoutY="259.0" text="Name" />
+      <Label layoutX="31.0" layoutY="300.0" text="Age" />
+      <Label layoutX="31.0" layoutY="343.0" text="Gender" />
+      <Label layoutX="31.0" layoutY="387.0" text="Address" />
+      <Label layoutX="31.0" layoutY="428.0" text="Phone" />
+      <Label layoutX="31.0" layoutY="472.0" text="Email" />
+      <Label layoutX="31.0" layoutY="518.0" text="Password" />
+      <Label alignment="CENTER" layoutX="530.0" layoutY="18.0" prefHeight="46.0" prefWidth="424.0" style="-fx-font-size: 30;" text="Manage Cashier" />
+      <TextField fx:id="tf_id" layoutX="115.0" layoutY="212.0" prefHeight="27.0" prefWidth="197.0" promptText="11001" />
+      <TextField fx:id="tf_name" layoutX="113.0" layoutY="254.0" prefHeight="27.0" prefWidth="197.0" promptText="Farida" />
+      <TextField fx:id="tf_age" layoutX="113.0" layoutY="297.0" prefHeight="27.0" prefWidth="197.0" promptText="18" />
+      <RadioButton fx:id="rdo_male" layoutX="113.0" layoutY="343.0" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rdo_female" layoutX="191.0" layoutY="343.0" text="Female" toggleGroup="$gender" />
+      <TextField fx:id="tf_address" layoutX="111.0" layoutY="380.0" prefHeight="27.0" prefWidth="197.0" promptText="Abura" />
+      <TextField fx:id="tf_phone" layoutX="109.0" layoutY="422.0" prefHeight="27.0" prefWidth="197.0" promptText="0549677744" />
+      <TextField fx:id="tf_email" layoutX="109.0" layoutY="466.0" prefHeight="27.0" prefWidth="197.0" promptText="example@mail.com" />
+      <TextField fx:id="tf_password" layoutX="109.0" layoutY="511.0" prefHeight="27.0" prefWidth="197.0" promptText=" Enter Cashier Password" />
+      <Label layoutX="20.0" layoutY="560.0" text="Date of Birth" />
+      <Button fx:id="bt_new" layoutX="16.0" layoutY="624.0" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #273a91;" text="New" textFill="WHITE" />
+      <Button fx:id="bt_add" layoutX="93.0" layoutY="624.0" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #273a91;" text="Add" textFill="WHITE" />
+      <Button fx:id="bt_update" layoutX="172.0" layoutY="624.0" prefHeight="26.0" prefWidth="60.0" style="-fx-background-color: #273a91;" text="Update" textFill="WHITE" />
+      <DatePicker fx:id="df_dob" layoutX="111.0" layoutY="556.0" prefHeight="26.0" prefWidth="191.0" promptText="06/27/2024" />
+      <Button fx:id="bt_delete" layoutX="247.0" layoutY="624.0" prefHeight="26.0" prefWidth="60.0" style="-fx-background-color: #e55712;" text="Delete" />
+      <TextField fx:id="tf_search" layoutX="93.0" layoutY="136.0" prefHeight="26.0" prefWidth="218.0" promptText="Search Cashier by ID, Name or Phone" />
+   </children>
+</AnchorPane>

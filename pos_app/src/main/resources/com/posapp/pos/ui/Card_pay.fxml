@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="482.0" layoutY="188.0" text="Purchase ID" />
+      <Label layoutX="568.0" layoutY="121.0" style="-fx-font-size: 21;" text="Card Payment" />
+      <TextField fx:id="tf_purchase_id" editable="false" layoutX="601.0" layoutY="183.0" prefHeight="27.0" prefWidth="253.0" promptText="10001" />
+      <Label layoutX="473.0" layoutY="238.0" text="Total Amount" />
+      <TextField fx:id="tf_total_amount" editable="false" layoutX="601.0" layoutY="233.0" prefHeight="27.0" prefWidth="254.0" promptText="5000" />
+      <Label layoutX="472.0" layoutY="292.0" text="Card Number" />
+      <TextField fx:id="tf_card_no" editable="false" layoutX="601.0" layoutY="287.0" prefHeight="27.0" prefWidth="254.0" promptText="777 777 xxx xxx " />
+      <Button fx:id="bt_pay" layoutX="780.0" layoutY="386.0" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: #31720d;" text="Pay" textFill="WHITE" />
+      <Label layoutX="434.0" layoutY="396.0" text="Card user will get 15% discount over total amount." textFill="#5e5c5c" />
+      <Label layoutX="475.0" layoutY="339.0" text="Pay Amount" />
+      <TextField fx:id="tf_pay_amount" editable="false" layoutX="601.0" layoutY="334.0" prefHeight="27.0" prefWidth="254.0" />
+   </children>
+</AnchorPane>

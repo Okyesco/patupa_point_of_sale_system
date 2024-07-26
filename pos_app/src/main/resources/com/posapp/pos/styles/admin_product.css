@@ -1,0 +1,30 @@
+#common_pane{
+    -fx-background-color: "green";
+}
+
+#bt_customer{
+    -fx-background-color: "green";
+    -fx-border-radius: 100;
+    -fx-alignment: center;
+}
+
+.button{
+    -fx-border-radius: 200;
+
+}
+
+
+.label{
+    -fx-font-size: 10;
+
+
+}
+/*#bt_add{*/
+/*    -fx-background-color:"red" ;*/
+/*}*/
+/*#tf_barcode{*/
+/*    -fx-text-box-border:transparent;*/
+/*    -fx-border-width: 0 0 1px 0;*/
+/*    -fx-border-color: transparent transparent #f5bd63 transparent;*/
+
+/*}*/

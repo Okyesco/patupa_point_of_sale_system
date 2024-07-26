@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1511.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.posapp.pos.controller.AdminPopularItemController">
+   <children>
+      <TableView fx:id="tb_popular" layoutX="78.0" layoutY="74.0" prefHeight="610.0" prefWidth="1410.0">
+         <columns>
+            <TableColumn fx:id="col_barcode" prefWidth="194.40000915527344" text="Barcode" />
+            <TableColumn fx:id="col_name" prefWidth="253.5999755859375" text="Name" />
+            <TableColumn fx:id="col_cat" prefWidth="152.800048828125" text="Category" />
+            <TableColumn fx:id="col_price" prefWidth="94.4000244140625" text="Price" />
+            <TableColumn fx:id="col_sup" prefWidth="212.79998779296875" text="Supplier" />
+            <TableColumn fx:id="col_date_added" prefWidth="142.4000244140625" text="Date Added" />
+            <TableColumn fx:id="col_stock" prefWidth="112.800048828125" text="Stock" />
+            <TableColumn fx:id="col_expiry_date" prefWidth="155.2000732421875" text="Expiry Date" />
+            <TableColumn fx:id="col_count" prefWidth="108.800048828125" text="Count" />
+         </columns></TableView>
+      <Label layoutX="586.0" layoutY="17.0" style="-fx-font-size: 30;" text="Popular Items Over The Store" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="807.0" prefWidth="1539.0" style="-fx-background-color: #878584;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.posapp.pos.controller.AdminController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-8.0" prefHeight="71.0" prefWidth="1548.0" style="-fx-background-color: #fff;">
+         <children>
+            <Button fx:id="bt_report" layoutX="1121.0" layoutY="14.0" onAction="#onReportAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="Report" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_popular" layoutX="635.0" layoutY="14.0" onAction="#onPopularAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="Popular Items" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_chart" layoutX="957.0" layoutY="14.0" onAction="#onChartAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="View Charts" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_category" layoutX="305.0" layoutY="14.0" onAction="#onCategoryAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="Product Category" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_logout" layoutX="1287.0" layoutY="15.0" onAction="#onLogoutAction" prefHeight="56.0" prefWidth="155.0" style="-fx-background-color: #37B7C3;" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_product" layoutX="136.0" layoutY="14.0" onAction="#onProductAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="Product Item" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_cashier" layoutX="470.0" layoutY="14.0" onAction="#onCashierAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="Manage Cashier" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="bt_supplier" layoutX="795.0" layoutY="14.0" onAction="#onSupplierAction" prefHeight="56.0" prefWidth="145.0" style="-fx-background-color: #071952;" text="Supplier" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+<!--            <Button fx:id="bt_card" layoutX="628.0" layoutY="14.0" onAction="#onManageCardAction" prefHeight="56.0" prefWidth="101.0" style="-fx-background-color: #1f2030;" text="Manage Card" textFill="WHITE" />-->
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="common_pane" layoutX="-3.0" layoutY="57.0" prefHeight="750.0" prefWidth="1548.0" style="-fx-background-color: #fff;" />
+   </children>
+</AnchorPane>

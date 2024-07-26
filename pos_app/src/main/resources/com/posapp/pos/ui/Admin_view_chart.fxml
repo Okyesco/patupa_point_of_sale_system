@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.posapp.pos.controller.AdminViewChartsController">
+   <children>
+      <AnchorPane fx:id="ch_dailySale" layoutX="11.0" layoutY="152.0" prefHeight="415.0" prefWidth="414.0" style="-fx-background-color: #e2edff;" />
+      <AnchorPane fx:id="ch_monthlySale" layoutX="521.0" layoutY="152.0" prefHeight="415.0" prefWidth="414.0" style="-fx-background-color: #e2edff;" />
+      <AnchorPane fx:id="ch_category" layoutX="1030.0" layoutY="152.0" prefHeight="415.0" prefWidth="414.0" style="-fx-background-color: #e2edff;" />
+   </children>
+</AnchorPane>
